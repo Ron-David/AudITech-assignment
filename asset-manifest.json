@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AudITech-assignment/static/css/main.a4a2ec6e.css",
+    "main.js": "/AudITech-assignment/static/js/main.4fe6dae0.js",
+    "index.html": "/AudITech-assignment/index.html",
+    "main.a4a2ec6e.css.map": "/AudITech-assignment/static/css/main.a4a2ec6e.css.map",
+    "main.4fe6dae0.js.map": "/AudITech-assignment/static/js/main.4fe6dae0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4a2ec6e.css",
+    "static/js/main.4fe6dae0.js"
+  ]
+}
