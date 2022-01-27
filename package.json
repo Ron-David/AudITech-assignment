@@ -1,7 +1,6 @@
 {
   "name": "auditech",
   "version": "0.1.0",
-  "homepage": "https://Ron-David.github.io/AudITech-assignment",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.9.0",
@@ -21,8 +20,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
