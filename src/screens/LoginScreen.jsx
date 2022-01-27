@@ -1,15 +1,17 @@
 import React from 'react';
-import LoginButton from '../components/LoginButton';
+import Button from '../components/Button';
 import { Container, Typography } from '@mui/material';
-import colors from '../colors';
+import { useAuth0 } from "@auth0/auth0-react";
 
-function LoginScreen(props) {
+function LoginScreen() {
+    const { loginWithRedirect } = useAuth0();
+
     return (
         <Container component="main" maxWidth="s" sx={sxContainer}>
             <Typography sx={sxText}>
                 You need to login to access this page.
             </Typography>
-            <LoginButton />
+            <Button label='Login' onClick={() => loginWithRedirect()} />
         </Container>
     );
 }

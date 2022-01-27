@@ -1,16 +1,14 @@
 import Navbar from './components/Navbar';
-import LoginScreen from './screens/LoginScreen';
-import { useAuth0 } from "@auth0/auth0-react";
-
+import HomeScreen from './screens/HomeScreen';
 
 function App() {
-  const { isAuthenticated } = useAuth0()
   return (
     <div>
       <Navbar />
-      {!isAuthenticated && <LoginScreen />}
+      <HomeScreen />
     </div>
   );
 }
+
 
 export default App;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Stack, Typography } from '@mui/material';
 import Logout from './Logout';
-import colors from '../colors';
+import colors from '../config/colors';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
